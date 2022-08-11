@@ -19,7 +19,7 @@ let old = performance.now()
 let neww = performance.now()
 let speed = neww - old
 
-let info = `
+let info832368 = `
 ╭━━━━[ ${gt} ]━━━━━⬣
 ┃
 ┃➥ *CREADORA | CREATOR*
@@ -60,10 +60,8 @@ let info = `
 ┃
 ╰━━━[ 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙘𝙞ó𝙣 | 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣 ]━━⬣`.trim()
 
-conn.sendHydrated(m.chat, info, wm, pp, 'https://github.com/GataNina-Li/GataBot-MD', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
-['𝙑𝙚𝙧 𝙂𝙧𝙪𝙥𝙤𝙨 | 𝙎𝙚𝙚 𝙂𝙧𝙤𝙪𝙥𝙨', '#grupolista'],
-['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨', '/cuentasgb'],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪', '.menu']
+conn.sendHydrated(m.chat, info, wm, pp, 'https://chat.whatsapp.com/K5oYrSy3oOxJJhGhMAPsCU', '13', null, null, [
+
 ], m,)
 //conn.reply(m.chat, info, m)
 }
