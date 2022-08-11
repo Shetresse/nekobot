@@ -17,8 +17,7 @@ ${listAdmin}
 
 await conn.sendFile(m.chat, pp, 'error.jpg', text, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
   
-await conn.sendHydrated(m.chat, null, `𝘼𝙙𝙢𝙞𝙣𝙨 | ${wm}`, null, 'https://github.com/GataNina-Li/GataBot-MD', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘', '.menu']
+await conn.sendHydrated(m.chat, null, `𝘼𝙙𝙢𝙞𝙣𝙨 | ${wm}`, null, 'https://chat.whatsapp.com/K5oYrSy3oOxJJhGhMAPsCU', '13', null, null, [
 ], m)//, false, { mentions: [...groupAdmins.map(v => v.id), owner] })  
 }
 handler.help = ['admins <texto>']
