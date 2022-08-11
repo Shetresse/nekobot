@@ -4,10 +4,10 @@ import { fileURLToPath } from 'url'
 
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰
 global.owner = [
-  ['593993684821', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈', true],
-  ['50495086382'],
-  ['51993042301'],
-  ['593968585383'] //['50498965677'],
+  ['593982886470', '13 💖', true],
+  ['593987887693'],
+  ['14388149872'],
+  ['593992220607'] //['593992220607'],
 ]
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -70,40 +70,17 @@ global.APIKeys = { // APIKey Here
 
 //⊱ ━━━━━.⋅ Sticker WM ⋅.━━━━ ⊰
 
-global.packname = '🐈 𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿'
-global.author = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
+global.packname = 'tresse'
+global.author = '13'
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
-global.vs = '1.1.28'
-global.version = vs
-
-global.gt = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿'
-global.gatabot = gt
-
-global.yt = 'https://youtube.com/channel/UCpNU4eY7eiI0ve05CssjdbA'
-global.youtube = yt
-
-global.ig = 'https://www.instagram.com/gata_dios'
-global.gatadiosig = ig
-
-global.md = 'https://github.com/GataNina-Li/GataBot-MD'
-global.gatabot = md
-
-global.nn = 'https://chat.whatsapp.com/CunoFmEfBW75APfI0ZO5DJ'
+global.nn = 'https://chat.whatsapp.com/K5oYrSy3oOxJJhGhMAPsCU'
 global.nngrupo = nn //Grupo 1
 
-global.nnn = 'https://chat.whatsapp.com/FvWByAGQIoRHH9FwrgB35E'
-global.nnngrupo = nnn //Grupo 2
-
-global.nnnt = 'https://chat.whatsapp.com/DJXZNYZXixx9Zmb0gLPD0b'
-global.nnngrupo = nnnt //Grupo 3
-
-global.paypal = 'https://paypal.me/OficialGD'
-global.donar = paypal
 
 //global.gataimg = fs.readFileSync('./media/menus/Menu3.jpg')
 
@@ -138,8 +115,8 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
-global.igfg = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿'
+global.wm = 'Jimmy | 13'
+global.igfg = 'Jimmy'
 global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
