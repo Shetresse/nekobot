@@ -67,17 +67,14 @@ let username = conn.getName(who)
 //let user = global.db.data.users[m.sender]
 //user.registered = false
 
-let menu = `
+let menu832368 = `
 💗 *¡HOLA | HI!* ${username}
 ╭━━〔 *${wm}* 〕━━⬣
 ┃📍📍📍📍📍📍📍📍📍
 ┃✪ *EXPERIENCIA | EXP ➺ ${exp}*
 ┃✪ *NIVEL | LEVEL ➺ ${level}*
 ┃✪ *ROL ➺* ${role}
-┃✪ *GATACOINS ➺ $ ${money}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃✪ *FECHA ➺ ${week}, ${date}*
-┃✪ *USUARIOS | USERS ➺ ${Object.keys(global.db.data.users).length}* 
+┃✪ *COINS ➺ $ ${money}*
 ┃📍📍📍📍📍📍📍📍📍
 ╰━━━━━━〔 𓃠 *${vs}* 〕━━━━━━⬣
 
@@ -91,10 +88,7 @@ let menu = `
 ┃🛰️➺ _${usedPrefix}toenlace  *video, imagen o audio*_
 ┃🛰️➺ _${usedPrefix}tts es *texto*_
 ╰━━━━━━━━━━━━━━━━━━━⬣`.trim()
-conn.sendHydrated(m.chat, menu, wm, pp, 'https://github.com/GataNina-Li/GataBot-MD', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
-['𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 | 𝙁𝙪𝙡𝙡 𝙈𝙚𝙣𝙪 💫', '.allmenu'],
-['𝙈𝙚𝙣𝙪 𝙙𝙚𝙨𝙥𝙡𝙚𝙜𝙖𝙗𝙡𝙚 | 𝙈𝙚𝙣𝙪 𝙇𝙞𝙨𝙩 🌟', '/menulista'],
-['𝙈𝙚𝙣𝙪 𝙋𝙧𝙞𝙣𝙘𝙞𝙥𝙖𝙡 | 𝙈𝙖𝙞𝙣 𝙢𝙚𝙣𝙪 ⚡', '#menu']
+conn.sendHydrated(m.chat, menu, wm, pp, 'https://chat.whatsapp.com/K5oYrSy3oOxJJhGhMAPsCU', '13', null, null, [
 ], m,)
 }
 
