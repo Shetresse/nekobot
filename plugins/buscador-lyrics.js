@@ -28,8 +28,6 @@ ${result.lyrics}
 `.trim()
 conn.sendHydrated(m.chat, letratexto, wm, json.thumbnail.genius, null, null, null, null, [
 ['𝘿𝙚𝙨𝙘𝙖𝙧𝙜𝙖𝙧 | 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 🚀', `/play ${text}`],
-['𝙈𝙚𝙣𝙪 𝘽𝙪𝙨𝙦𝙪𝙚𝙙𝙖𝙨 | 𝙎𝙚𝙖𝙧𝙘𝙝𝙚𝙨 🔎', '#buscarmenu'],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
 ], m)
 }
 handler.help = ['lirik','letra'].map(v => v + ' <Apa>')
