@@ -82,7 +82,7 @@ let username = conn.getName(who)
 //user.registered = false
 
 
-let menu832368 = `
+let menu = `
 💗 *¡HOLA | HI!* ${username}
 ╭━━〔 *${wm}* 〕━━⬣
 ┃🔰🔰🔰🔰🔰🔰🔰🔰🔰 
