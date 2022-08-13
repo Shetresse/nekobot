@@ -49,6 +49,8 @@ export async function handler(chatUpdate) {
 			    user.joincount = 1
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
+		if (!isNumber(user.lastcofre))
+                    user.lastcofre = 0
                 if (!('registered' in user))
                     user.registered = false
                 if (!user.registered) {
@@ -160,6 +162,8 @@ export async function handler(chatUpdate) {
 
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
+		if (!isNumber(user.lastcofre))
+                    user.lastcofre = 0
                 if (!isNumber(user.lastadventure))
                     user.lastadventure = 0
                 if (!isNumber(user.lastfishing))
@@ -238,6 +242,7 @@ export async function handler(chatUpdate) {
                     fishingroddurability: 0,
 
                     lastclaim: 0,
+		    lastcofre: 0,
                     lastadventure: 0,
                     lastfishing: 0,
                     lastdungeon: 0,
@@ -274,7 +279,9 @@ export async function handler(chatUpdate) {
                 if (!('autosticker' in chat))
                     chat.autosticker = false  
                 if (!('audios' in chat))
-                    chat.audios = false  
+                    chat.audios = false 
+		if (!('antiver' in chat))
+                    chat.antiver = true
                 if (!('antiLink' in chat))
                     chat.antiLink = false
                 if (!('antiLink2' in chat))
@@ -299,6 +306,7 @@ export async function handler(chatUpdate) {
                     stickers: true,
                     autosticker: false,
                     audios: true,
+		    antiver: true,
                     antiLink: false,
                     antiLink2: false,
                     viewonce: false,
@@ -311,10 +319,12 @@ export async function handler(chatUpdate) {
                 if (!('self' in settings)) settings.self = false
                 if (!('autoread' in settings)) settings.autoread = false
                 if (!('restrict' in settings)) settings.restrict = false
+		if (!('temporal' in settings)) settings.temporal = false
             } else global.db.data.settings[this.user.jid] = {
                 self: false,
                 autoread: false,
-                restrict: false
+                restrict: false,
+		temporal: false
             }
         } catch (e) {
             console.error(e)
@@ -658,9 +668,9 @@ export async function participantsUpdate({ id, participants, action }) {
                         text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*𝙂𝙧𝙪𝙥𝙤 𝙂𝙚𝙣𝙞𝙖𝙡 | 𝘾𝙤𝙤𝙡 𝙂𝙧𝙤𝙪𝙥 😼*') :
                             (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', await this.getName(user)) //.replace('@user', '@' + user.split('@')[0])
                             let apii = await this.getFile(pp)
-                            this.sendHydrated(id, text, groupMetadata.subject, apii.data, 'https://chat.whatsapp.com/K5oYrSy3oOxJJhGhMAPsCU', '13', null, null, [
+                            this.sendHydrated(id, text, groupMetadata.subject, apii.data, 'https://github.com/GataNina-Li/GataBot-MD', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
                             [(action == 'add' ? '𝙎𝙚 𝙪𝙣𝙞𝙤 🥳 | 𝙃𝙞!!' : '𝙎𝙚 𝙛𝙪𝙚 𝙪𝙣 𝙍𝙖𝙣𝙙𝙤𝙢 🧐 | 𝘽𝙮𝙚'), '.s'],    
-                            
+                            ['💖 𝙄𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪 | 𝙂𝙤 𝙈𝙚𝙣𝙪', '/menu']
                             ], '', { mentions: [user]})
                            }
                 }
