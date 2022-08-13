@@ -68,7 +68,7 @@ let mentionedJid = [who]
 let username = conn.getName(who) 
 
 
-let menu832368 = 
+let str = 
 `*╭━━━〔 𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 〕━━━⬣*
 *╭━〔* ${username} *〕━━⬣*
 *┆🧰 EXPERIENCIA ➟ ${exp}*
