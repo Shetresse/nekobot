@@ -68,7 +68,7 @@ let username = conn.getName(who)
 //let user = global.db.data.users[m.sender]
 //user.registered = false
 
-let menu832368 = `
+let menu = `
 💗 *¡HOLA | HI!* ${username}
 ╭━━〔 *${wm}* 〕━━⬣
 ┃🎠🎠🎠🎠🎠🎠🎠🎠🎠
